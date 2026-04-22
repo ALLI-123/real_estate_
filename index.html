@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Premium real estate listings for rent and sale. Find your dream property today.">
+  <meta name="keywords" content="real estate, property, houses, land, commercial, rent, sale">
+  <title>LuxEstate | Home</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+  <!-- Preloader -->
+  <div id="preloader">
+    <div class="spinner"></div>
+    <p class="mt-3 text-gold">Loading Premium Properties...</p>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-primary" href="index.html"><i class="bi bi-building"></i> LuxEstate</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="properties.html">Properties</a></li>
+          <li class="nav-item"><a class="nav-link" href="agents.html">Agents</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <li class="nav-item ms-2"><a class="btn btn-outline-primary" href="dashboard.html">Admin</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero-section text-white text-center py-5">
+    <div class="container py-5">
+      <h1 class="display-4 fw-bold">Find Your Perfect Space</h1>
+      <p class="lead mb-4">Premium properties for rent & sale across top locations</p>
+      <a href="properties.html" class="btn btn-gold btn-lg px-5">Explore Listings</a>
+    </div>
+  </header>
+
+  <!-- Categories -->
+  <section class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4 fw-bold">Browse by Category</h2>
+      <div class="row g-4">
+        <div class="col-md-4"><div class="card h-100 shadow-sm text-center p-4 hover-lift"><i class="bi bi-house-door fs-1 text-primary mb-2"></i><h5>Houses</h5></div></div>
+        <div class="col-md-4"><div class="card h-100 shadow-sm text-center p-4 hover-lift"><i class="bi bi-building fs-1 text-gold mb-2"></i><h5>Commercial</h5></div></div>
+        <div class="col-md-4"><div class="card h-100 shadow-sm text-center p-4 hover-lift"><i class="bi bi-map fs-1 text-dark mb-2"></i><h5>Land</h5></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4 fw-bold">Client Stories</h2>
+      <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner text-center">
+          <div class="carousel-item active"><blockquote class="blockquote"><p>"Smooth process, found my dream home in 2 weeks!"</p><footer class="blockquote-footer">Sarah M.</footer></blockquote></div>
+          <div class="carousel-item"><blockquote class="blockquote"><p>"Professional agents and transparent pricing. Highly recommended."</p><footer class="blockquote-footer">David K.</footer></blockquote></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WhatsApp Float -->
+  <a href="https://wa.me/1234567890?text=Hi,%20I'm%20interested%20in%20your%20properties" class="whatsapp-float" target="_blank"><i class="bi bi-whatsapp"></i></a>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
